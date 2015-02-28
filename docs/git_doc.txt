@@ -1,0 +1,72 @@
+git init
+
+	Inicializa un directorio .git dentro del directorio de trabajo
+
+
+git status
+
+	Informa acerca del próximo 'commit'
+
+
+git branch
+
+	Enumera las ramas del proyecto
+
+
+git branch <nombre>
+
+	Crea una nueva rama
+
+	-d
+
+	Borra la rama
+
+
+git checkout <nombre-rama>
+
+	Salta a la rama
+
+	-b
+
+	Crea la rama y salta a ella en una línea
+
+
+git diff
+
+	???
+
+
+git add <nombre-archivo>
+
+	Añade los ficheros cuyo nombre aparezca, o si es una carpeta los que esta contenga
+
+
+git reset <nombre>
+
+	???
+
+
+git merge <nombre-rama>
+
+	Combina la rama (nombre-rama) con la activa
+
+	--no-ff
+
+	Impide que git haga 'fast forward' si detecta que HEAD de la rama activa es anterior a la rama (nombre-rama)
+
+
+git log --graph --decorate=full --oneline
+
+	???
+
+
+git commit
+
+	Inyecta al repositorio lo que estaba en el índice
+
+	-m <comentario>
+	-a
+
+	Añade automáticamente los ficheros modificados bajo seguimiento
+
+
